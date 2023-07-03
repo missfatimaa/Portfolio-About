@@ -153,6 +153,9 @@ h3 {
 .food-txt h2 {
     font-size: 50px;
 }
+.food-txt-btn{
+    text-align: start;
+}
 
 .titles {
     text-align: left;
@@ -221,11 +224,7 @@ h3 {
         font-size: 17px;
     }
 
-    .food-txt {
-        text-align: center;
-    }
-
-    .food-txt p {
+    .food-txt p ,.food-txt-btn,.titles,.food-txt{
         text-align: center;
     }
 
@@ -233,12 +232,7 @@ h3 {
         font-size: 30px;
     }
 
-    .titles {
-        text-align: center;
-    }
-
     .launch-links {
-        display: block;
         text-align: center;
         font-size: 18px;
     }
