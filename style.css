@@ -31,6 +31,9 @@ body {
     margin-bottom: 50px;
 }
 
+.contact-bg {
+    background-color: #F9F7FE;
+}
 
 
 #contact {
@@ -213,13 +216,81 @@ h3 {
     font-size: 14px;
 }
 
-.sub-info img{
+.sub-info img {
     transition: all .2s ease-in-out;
 }
+
 .sub-info img:hover {
     transform: scale(1.02);
 }
 
+/* .iconsitems{
+    text-align: center;
+} */
+.contact-items {
+    text-align: center;
+    margin-top: 140px;
+}
+
+.contact-items h1 {
+    margin-bottom: 30px;
+
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0;
+}
+
+
+.links li {
+    list-style-type: none;
+}
+
+.links li a {
+    text-decoration: none;
+    color: var(--info-color);
+    font-size: 13px;
+    font-family: var(--text-font);
+    transition: all .1s ease-in-out;
+
+}
+
+.links li a:hover {
+    color: #7b7598;
+}
+
+.links li i {
+    font-size: 20px;
+    background-color: #b8b6b639;
+    color: var(--info-color);
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.links li i:hover {
+    background-color: var(--info-color);
+    color: #F9F7FE;
+}
+
+.email a {
+    font-size: 20px;
+    font-family: var(--text-font);
+    text-decoration: none;
+    color: var(--info-color);
+    transition: all .1s ease-in-out;
+}
+
+.email a:hover {
+    color: #7b7598;
+}
+.email i{
+    color: var(--info-color);
+}
 @media(max-width:576px) {
 
     .first-page-h2 {
@@ -291,5 +362,21 @@ h3 {
     .my-img {
         width: 300px;
         margin-top: 30px;
+    }
+
+    .email a {
+        font-size: 14px;
+    }
+
+    .links li i {
+        font-size: 15px;
+    }
+
+    .links li a {
+        font-size: 10px;
+    }
+
+    .contact-items {
+        margin-top: 40px;
     }
 }
