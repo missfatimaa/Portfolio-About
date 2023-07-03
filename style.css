@@ -1,0 +1,274 @@
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #f5f2fe;
+    --info-color: #272142;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --heading-font: 'Playfair Display', serif;
+    --text-font: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.food-txt p {
+    background: var(--secondary-color);
+    padding: 20px;
+    color: #272142b7;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 2;
+    text-align: left;
+    font-family: var(--text-font);
+}
+
+.content {
+    background-color: #F9F7FE;
+    text-align: center;
+    padding: 170px 20px;
+    margin-bottom: 50px;
+}
+
+
+
+#contact {
+    margin-bottom: 50px;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+
+.first-page-h1,
+.second-page-h1 {
+    font-family: var(--heading-font);
+    font-size: 96px;
+    font-weight: bold;
+
+}
+
+.first-page-h2 {
+    font-size: 36px;
+    color: var(--info-color);
+    font-weight: bold;
+    font-family: var(--text-font);
+}
+
+.info {
+    font-size: 24px;
+    color: var(--info-color);
+    font-family: var(--text-font);
+    font-weight: normal;
+    margin-bottom: 65px;
+}
+
+.btn-branding {
+    text-decoration: none;
+    font-family: var(--text-font);
+    border-radius: 4px;
+    background-color: #6C63FF;
+    color: white;
+    padding: 18px 46px;
+    font-size: 18px;
+    font-family: var(--text-font);
+    transition: all .2s ease-in-out;
+}
+
+.btn-branding:hover {
+    background-color: white;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.bestProject {
+    color: var(--info-color);
+    font-size: 18px;
+    text-align: center;
+}
+
+.container-sec {
+    margin-top: 150px;
+}
+
+
+.btns {
+    border: 1px solid var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: var(--primary-color);
+    font-family: var(--text-font);
+    border-radius: 4px;
+    padding: 18px 30px;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.btns:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* .about-link {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+} */
+
+.homepage-link {
+    color: var(--primary-color);
+    text-align: center;
+    display: block;
+}
+
+.about-paragraphs {
+    display: flex;
+    margin: 30px 0;
+}
+
+.about-paragraphs p {
+    margin: 10px;
+}
+
+.scaled:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+
+.food-txt h2 {
+    font-size: 50px;
+}
+
+.titles {
+    text-align: left;
+    font-family: var(--heading-font);
+    font-weight: bold;
+}
+
+.app-sec {
+    margin-bottom: 180px;
+
+}
+
+.about-sec {
+    padding: 100px 20px;
+}
+
+.my-img {
+    border-radius: 20px;
+    width: 450px;
+}
+
+.about-title {
+    font-family: var(--heading-font);
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.about-info {
+    font-family: var(--text-font);
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--info-color);
+}
+
+.about-text {
+    font-family: var(--text-font);
+    font-size: 16px;
+    color: #272142be;
+}
+
+.about-sec-cont {
+    margin: 30px;
+}
+
+@media(max-width:576px) {
+
+    .first-page-h2 {
+        font-size: 30px;
+    }
+
+    .first-page-h1,
+    .second-page-h1 {
+        font-size: 35px;
+    }
+
+    .scaled {
+        margin-bottom: 30px;
+    }
+
+    .info {
+        font-size: 20px;
+    }
+
+    #contact h2,
+    #contact a,.about-info {
+        font-size: 17px;
+    }
+
+    .food-txt {
+        text-align: center;
+    }
+
+    .food-txt p {
+        text-align: center;
+    }
+
+    .food-txt h2 {
+        font-size: 30px;
+    }
+
+    .titles {
+        text-align: center;
+    }
+
+    .launch-links {
+        display: block;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .content {
+        padding: 50px 20px;
+        margin-bottom: 0px;
+    }
+
+    .bestProject {
+        font-size: 13px;
+        margin-top: 40px;
+    }
+
+    .container-sec {
+        margin-top: 100px;
+    }
+
+    .app-sec {
+        margin-bottom: 100px;
+    }
+    .about-sec{
+        text-align: center;
+        padding: 40px;
+    }
+    .about-title{
+        font-size: 40px;
+    }
+    .my-img{
+        width: 300px;
+        margin-top: 30px;
+    }
+}
