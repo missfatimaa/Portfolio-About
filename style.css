@@ -365,6 +365,54 @@ h3 {
     color: var(--info-color);
 }
 
+.contact-box {
+    background: var(--secondary-color);
+    padding: 30px 160px;
+    border-radius: 20px;
+}
+
+footer {
+    margin: 60px 0;
+}
+footer h4{
+    font-size: 48px;
+    font-family: var(--heading-font);
+    font-weight: bold;
+}
+footer p{
+    font-size: 18px;
+    font-family: var(--text-font);
+    color: var(--info-color);
+}
+footer .socials a {
+    margin: 0 20px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: all .2s ease-in-out;
+}
+
+footer .socials a:hover {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.footer-email {
+    font-family: var(--text-font);
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    display: block;
+    text-align: center;
+}
+
+.footer-email:hover {
+    color: var(--primary-color);
+}
+
+
 @media(max-width:576px) {
     nav {
         padding: 10px 0;
