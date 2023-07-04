@@ -243,8 +243,7 @@ h3 {
 }
 
 .app-sec {
-    margin-bottom: 180px;
-
+    margin-bottom: 100px;
 }
 
 .about-sec {
@@ -374,16 +373,19 @@ h3 {
 footer {
     margin: 60px 0;
 }
-footer h4{
+
+footer h4 {
     font-size: 48px;
     font-family: var(--heading-font);
     font-weight: bold;
 }
-footer p{
+
+footer p {
     font-size: 18px;
     font-family: var(--text-font);
     color: var(--info-color);
 }
+
 footer .socials a {
     margin: 0 20px;
     color: var(--primary-color);
@@ -404,7 +406,6 @@ footer .socials a:hover {
     text-decoration: none;
     color: black;
     font-size: 24px;
-    display: block;
     text-align: center;
 }
 
@@ -473,10 +474,6 @@ footer .socials a:hover {
         margin-top: 60px;
     }
 
-    .app-sec {
-        margin-bottom: 100px;
-    }
-
     .about-sec {
         text-align: center;
         padding: 40px;
@@ -506,5 +503,19 @@ footer .socials a:hover {
 
     .contact-items {
         margin-top: 40px;
+    }
+
+    footer h4 {
+        font-size: 26px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+    footer{
+        margin: 20px;
+    }   
+    .footer-email {
+        font-size: 18px;
     }
 }
